@@ -1,17 +1,16 @@
-package me.steven.microservice.user;
+package me.steven.microservice.club;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 /**
- * Created by Steven on 2017/1/10.
+ * Created by Steven on 2017/1/11.
  */
 @SpringBootApplication
-public class UserApp {
-
+public class ClubApp {
 
     public static void main(String[] args) {
-        SpringApplication.run(UserApp.class, args);
+        SpringApplication.run(ClubApp.class);
     }
 
 }
