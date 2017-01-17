@@ -1,4 +1,4 @@
-package me.steven.microservice.club.controller;
+package me.steven.microservice.club.web;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -20,7 +20,7 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 @RunWith(SpringRunner.class)
 @SpringBootTest
 @AutoConfigureMockMvc
-public class ClubControllerTest {
+public class ClubRestControllerTest {
 
     @Autowired
     private MockMvc mvc;

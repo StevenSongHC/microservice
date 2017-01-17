@@ -1,4 +1,4 @@
-package me.steven.microservice.user.controller;
+package me.steven.microservice.user.web;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -19,7 +19,7 @@ import org.springframework.test.web.servlet.request.MockMvcRequestBuilders;
 @RunWith(SpringRunner.class)
 @SpringBootTest
 @AutoConfigureMockMvc
-public class UserControllerTest {
+public class UserRestControllerTest {
 
     @Autowired
     private MockMvc mvc;
