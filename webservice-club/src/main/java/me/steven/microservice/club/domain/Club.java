@@ -1,4 +1,4 @@
-package me.steven.microservice.club.entity;
+package me.steven.microservice.club.domain;
 
 /**
  * Created by steven on 1/17/17.

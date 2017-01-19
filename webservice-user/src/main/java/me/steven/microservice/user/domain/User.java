@@ -1,4 +1,4 @@
-package me.steven.microservice.user.entity;
+package me.steven.microservice.user.domain;
 
 /**
  * Created by steven on 1/17/17.

@@ -1,6 +1,6 @@
 package me.steven.microservice.user.web;
 
-import me.steven.microservice.user.entity.User;
+import me.steven.microservice.user.domain.User;
 import org.apache.log4j.Logger;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;

@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>List for clubs</title>
+    <script type="text/javascript" th:src="@{/webjars/jquery/3.1.1/jquery.min.js}"></script>
+    <link rel="stylesheet" type="text/css" th:href="@{/webjars/bootstrap/3.3.7/css/bootstrap.min.css}" />
+</head>
+<body>
+<div th:each="user : ${users}">
+    <div th:text="${user.id}">Id</div>
+    <div th:text="${user.username}">Username</div>
+    <div th:text="${user.password}">Password</div>
+</div>
+</body>
+</html>

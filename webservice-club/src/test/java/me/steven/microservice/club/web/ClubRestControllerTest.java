@@ -3,6 +3,7 @@ package me.steven.microservice.club.web;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.context.embedded.LocalServerPort;
 import org.springframework.boot.test.autoconfigure.web.servlet.AutoConfigureMockMvc;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.http.MediaType;
@@ -24,6 +25,8 @@ public class ClubRestControllerTest {
 
     @Autowired
     private MockMvc mvc;
+    @LocalServerPort
+    private int port;
 
     @Test
     public void indexTest() throws Exception {

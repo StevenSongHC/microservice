@@ -1,6 +1,6 @@
 package me.steven.microservice.club.web;
 
-import me.steven.microservice.club.entity.Club;
+import me.steven.microservice.club.domain.Club;
 import org.apache.log4j.Logger;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -12,7 +12,7 @@ import java.util.List;
  * Created by Steven on 2017/1/11.
  */
 @RestController
-@RequestMapping("rest")
+@RequestMapping("")
 public class ClubRestController {
 
     private final Logger logger = Logger.getLogger(this.getClass());
