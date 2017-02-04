@@ -12,7 +12,7 @@ import java.util.List;
  * Created by Steven on 2017/1/10.
  */
 @RestController
-@RequestMapping("")
+@RequestMapping("api")
 public class UserRestController {
 
     private final Logger logger = Logger.getLogger(this.getClass());
