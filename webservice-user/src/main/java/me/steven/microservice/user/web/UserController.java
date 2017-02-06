@@ -27,7 +27,7 @@ public class UserController {
 
     @GetMapping("list")
     public String list(ModelMap model) {
-        User[] users = rest.getForObject("http://localhost:8080/user/api/list", User[].class);
+        User[] users = rest.getForObject("http://user/api/list", User[].class);
         model.put("users", users);
         return "list";
     }

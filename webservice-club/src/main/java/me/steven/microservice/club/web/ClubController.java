@@ -27,7 +27,7 @@ public class ClubController {
 
     @GetMapping("list")
     public String list(ModelMap model) {
-        Club[] clubs = rest.getForObject("http://localhost:8080/club/api/list", Club[].class);
+        Club[] clubs = rest.getForObject("http://club/api/list", Club[].class);
         model.put("clubs", clubs);
         return "list";
     }
